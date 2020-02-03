@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/joshuasanger/.nvm/versions/node/v10.11.0/bin/node /Users/joshuasanger/.dev/yarn/1.12.3/bin/yarn.js check --integrity
+
+PATH: 
+  /Users/joshuasanger/.nvm/versions/node/v10.11.0/bin:/Users/joshuasanger/.dev/yarn/1.12.3/bin:/Users/joshuasanger/.gem/ruby/2.6.3/bin:/opt/rubies/2.6.3/lib/ruby/gems/2.6.0/bin:/opt/rubies/2.6.3/bin:/usr/local/opt/mysql-client@5.7/bin:/Users/joshuasanger/.nix-profile/bin:/opt/dev/bin/user:/Users/joshuasanger/.nix-profile/bin:/nix/var/nix/gcroots/dev-profiles/user-extra-profile/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError: Cannot read property '@rails/ujs@^6.0.0' of undefined
+      at /Users/joshuasanger/.dev/yarn/1.12.3/lib/cli.js:47143:25
+      at Array.filter (<anonymous>)
+      at InstallationIntegrityChecker.<anonymous> (/Users/joshuasanger/.dev/yarn/1.12.3/lib/cli.js:47142:38)
+      at Generator.next (<anonymous>)
+      at step (/Users/joshuasanger/.dev/yarn/1.12.3/lib/cli.js:304:30)
+      at /Users/joshuasanger/.dev/yarn/1.12.3/lib/cli.js:322:14
+      at new Promise (<anonymous>)
+      at new F (/Users/joshuasanger/.dev/yarn/1.12.3/lib/cli.js:5228:28)
+      at InstallationIntegrityChecker.<anonymous> (/Users/joshuasanger/.dev/yarn/1.12.3/lib/cli.js:301:12)
+      at InstallationIntegrityChecker.check (/Users/joshuasanger/.dev/yarn/1.12.3/lib/cli.js:47191:21)
+
+npm manifest: 
+  {
+    "name": "dolly",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
